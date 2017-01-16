@@ -6,5 +6,4 @@ To test the package, you need to
 
 1. Make sure that ROS will use the simulated time: **rosparam set use_sim_time true**
 1. Launch the transformer and the map: **roslaunch ww_transforms ww_transforms.launch**
-1. Play one of the rosbags of the WW dataset, e.g: 
-
+1. Play one of the rosbags of the WW dataset with the tf remapped and clock enabled, e.g: **rosbag play --clock -d 1  $i /tf:=/tf_old**
