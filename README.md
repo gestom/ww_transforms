@@ -1,7 +1,8 @@
 ## Witham Wharf transforms
 
 The Witham Wharf transforms package is meant to complement the Witham Wharf long-term [dataset](https://lcas.lincoln.ac.uk/owncloud/shared/datasets/).
-The package aims to provide a complete **tf** tree, which would allow to transform the data provided in the rosbags to a global coordinate (**map**) frame.
+The package aims to provide a complete **tf** tree, which would allow to transform the data provided in the datasets rosbags to a global coordinate (**map**) frame.
+
 To test the package, you need to 
 
 1. Make sure that ROS will use the simulated time: **rosparam set use_sim_time true**
