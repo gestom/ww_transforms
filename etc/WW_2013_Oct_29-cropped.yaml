@@ -1,0 +1,6 @@
+free_thresh: 0.196
+image: WW_2013_Oct_29-cropped.pgm
+negate: 0
+occupied_thresh: 0.65
+origin: [-19.19999999999999, -13.649999999999991, 0.0]
+resolution: 0.05
