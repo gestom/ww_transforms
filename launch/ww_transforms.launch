@@ -1,7 +1,7 @@
 <launch>
 
 <node pkg="map_server" type="map_server" name="ww_map_server" args="$(find ww_transforms)/etc/WW_2013_Oct_29-cropped.yaml" />
-<node pkg="ww_transforms" type="ww_transformer" name="ww_transformer" />
+<node pkg="ww_transforms" type="ww_transformer" name="ww_transformer" output="screen" />
 
 </launch>
 
